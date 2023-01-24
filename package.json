@@ -55,6 +55,8 @@
         "html-webpack-plugin": "^5.5.0",
         "prettier": "^2.6.2",
         "prismjs": "^1.28.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
         "react-scripts": "5.0.1",
         "sass": "^1.50.0",
         "source-map-loader": "^3.0.0",
