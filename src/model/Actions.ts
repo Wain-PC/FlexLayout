@@ -1,24 +1,25 @@
 import { DockLocation } from "../DockLocation";
 import { Action } from "./Action";
+import { EActionType } from "./EActionType";
 
 /**
  * The Action creator class for FlexLayout model actions
  */
 export class Actions {
-    static ADD_NODE = "FlexLayout_AddNode";
-    static MOVE_NODE = "FlexLayout_MoveNode";
-    static DELETE_TAB = "FlexLayout_DeleteTab";
-    static DELETE_TABSET = "FlexLayout_DeleteTabset";
-    static RENAME_TAB = "FlexLayout_RenameTab";
-    static SELECT_TAB = "FlexLayout_SelectTab";
-    static SET_ACTIVE_TABSET = "FlexLayout_SetActiveTabset";
-    static ADJUST_SPLIT = "FlexLayout_AdjustSplit";
-    static ADJUST_BORDER_SPLIT = "FlexLayout_AdjustBorderSplit";
-    static MAXIMIZE_TOGGLE = "FlexLayout_MaximizeToggle";
-    static UPDATE_MODEL_ATTRIBUTES = "FlexLayout_UpdateModelAttributes";
-    static UPDATE_NODE_ATTRIBUTES = "FlexLayout_UpdateNodeAttributes";
-    static FLOAT_TAB = "FlexLayout_FloatTab";
-    static UNFLOAT_TAB = "FlexLayout_UnFloatTab";
+    static ADD_NODE = EActionType.ADD_NODE;
+    static MOVE_NODE = EActionType.MOVE_NODE;
+    static DELETE_TAB = EActionType.DELETE_TAB;
+    static DELETE_TABSET = EActionType.DELETE_TABSET;
+    static RENAME_TAB = EActionType.RENAME_TAB;
+    static SELECT_TAB = EActionType.SELECT_TAB;
+    static SET_ACTIVE_TABSET = EActionType.SET_ACTIVE_TABSET;
+    static ADJUST_SPLIT = EActionType.ADJUST_SPLIT;
+    static ADJUST_BORDER_SPLIT = EActionType.ADJUST_BORDER_SPLIT;
+    static MAXIMIZE_TOGGLE = EActionType.MAXIMIZE_TOGGLE;
+    static UPDATE_MODEL_ATTRIBUTES = EActionType.UPDATE_MODEL_ATTRIBUTES;
+    static UPDATE_NODE_ATTRIBUTES = EActionType.UPDATE_NODE_ATTRIBUTES;
+    static FLOAT_TAB = EActionType.FLOAT_TAB;
+    static UNFLOAT_TAB = EActionType.UNFLOAT_TAB;
 
     /**
      * Adds a tab node to the given tabset node

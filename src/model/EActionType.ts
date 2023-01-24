@@ -1,0 +1,16 @@
+export enum EActionType {
+    ADD_NODE = "FlexLayout_AddNode",
+    MOVE_NODE = "FlexLayout_MoveNode",
+    DELETE_TAB = "FlexLayout_DeleteTab",
+    DELETE_TABSET = "FlexLayout_DeleteTabset",
+    RENAME_TAB = "FlexLayout_RenameTab",
+    SELECT_TAB = "FlexLayout_SelectTab",
+    SET_ACTIVE_TABSET = "FlexLayout_SetActiveTabset",
+    ADJUST_SPLIT = "FlexLayout_AdjustSplit",
+    ADJUST_BORDER_SPLIT = "FlexLayout_AdjustBorderSplit",
+    MAXIMIZE_TOGGLE = "FlexLayout_MaximizeToggle",
+    UPDATE_MODEL_ATTRIBUTES = "FlexLayout_UpdateModelAttributes",
+    UPDATE_NODE_ATTRIBUTES = "FlexLayout_UpdateNodeAttributes",
+    FLOAT_TAB = "FlexLayout_FloatTab",
+    UNFLOAT_TAB = "FlexLayout_UnFloatTab",
+}

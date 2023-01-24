@@ -1,8 +1,10 @@
+import { EActionType } from "./EActionType";
+
 export class Action {
-    type: string;
+    type: EActionType;
     data: Record<string, any>;
 
-    constructor(type: string, data: Record<string, any>) {
+    constructor(type: EActionType, data: Record<string, any>) {
         this.type = type;
         this.data = data;
     }
